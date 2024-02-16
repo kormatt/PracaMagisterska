@@ -20,7 +20,7 @@ def main():
     # Definiowanie list akcji do śledzenia
     stocks = [
 "AAPL", "MSFT", "AMZN", "GOOGL", "TSLA",  "V", "JNJ", "WMT", "JPM", "UNH", "PG", "NVDA", "HD", "DIS", "MA", "PYPL", "BABA", "VOO", "INTC", "ADBE", "CRM", "NFLX", "ORCL", "T", "KO", "PEP", "NKE", "XOM", "CVX", "BA", "MMM", "MCD", "IBM", "GS", "CSCO", "MRK", "BAC", "GE"]
-    data_period_days = "65d"  # Przygotowanie formatu okresu dla akcji
+    data_period_days = "360d"  # Przygotowanie formatu okresu dla akcji
 
     # Tworzenie folderów, jeśli nie istnieją
     os.makedirs("stocks", exist_ok=True)
